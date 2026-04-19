@@ -1,0 +1,22 @@
+# Virtual Environments
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Data Dumps & Scraped Output
+noyb_seen_urls.txt
+noyb_trigger_*.txt
+noyb_case_arsenal.csv
+latest_cms_fines.csv
+cms_fines_complete_arsenal.csv
+
+# Playwright / Puppeteer local traces
+*.trace
+*.pcap
+
+# OS generated files
+.DS_Store
+Thumbs.db
